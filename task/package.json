@@ -19,6 +19,7 @@
     "http-status": "^1.7.4",
     "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
+    "mysql2": "^3.11.3",
     "request-ip-check": "^3.4.7",
     "typeorm": "^0.3.20",
     "typeorm-extension": "^3.6.1",

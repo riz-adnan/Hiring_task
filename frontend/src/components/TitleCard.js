@@ -61,6 +61,7 @@ export default function CardSpotlightDemo() {
                         className="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center from-blue-500 via-teal-500 to-pink-500 bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto mx-auto">
                         Title List
                     </h1>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {addedtitles && Array.isArray(addedtitles) && addedtitles.length > 0 && addedtitles.map((title) => (
     <CardSpotlight className="h-96 w-96">
   <h1 className="text-4xl font-bold relative z-20 mt-2 text-white mx-auto ">
@@ -81,7 +82,9 @@ export default function CardSpotlightDemo() {
     </h1>
   </div>
 </CardSpotlight>
+
                     ))}
+                    </div>
 </>
   );
 }
